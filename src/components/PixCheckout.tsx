@@ -8,7 +8,7 @@ import { useToast } from '@/hooks/use-toast';
 import { Copy, CheckCircle, AlertCircle, RefreshCw, Star, Shield, QrCode } from 'lucide-react';
 
 const PixCheckout = () => {
-  const [valor] = useState<string>('42.90');
+  const [valor] = useState<string>('24.90');
   const [pixData, setPixData] = useState<PixResponse | null>(null);
   const [paymentStatus, setPaymentStatus] = useState<PaymentStatus | null>(null);
   const [loading, setLoading] = useState(false);
